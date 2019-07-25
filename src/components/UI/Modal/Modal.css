@@ -4,21 +4,26 @@
   background-color: white;
   width: 70%;
   border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px black;
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
   padding: 16px;
   left: 15%;
   top: 30%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
 .ModalHidden {
-  transform: translateY(-100vh);
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
   opacity: 0;
 }
 
 .ModalShow {
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   opacity: 1;
 }
 

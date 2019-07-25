@@ -1,6 +1,5 @@
 import React from 'react';
 import Aux from '../../../hoc/Wrapper';
-//import classes from './style.css';
 import Button from '../../UI/Button/Button';
 
 const orderSummary = (props) => {
@@ -21,4 +20,5 @@ const orderSummary = (props) => {
     </Aux>
   );
 };
+
 export default orderSummary;
